@@ -11,9 +11,9 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    CLEVELAND_TECH_SURVEY_MAIL_SUBJECT_PREFIX = '[Cleveland_Tech_Survey]'
-    CLEVELAND_TECH_SURVEY_MAIL_SENDER = 'Cleveland_Tech_Survey Admin <CLEVELAND_TECH_SURVEY@example.com>'
-    CLEVELAND_TECH_SURVEY_ADMIN = os.environ.get('CLEVELAND_TECH_SURVEY_ADMIN')
+    CTS_MAIL_SUBJECT_PREFIX = '[Cleveland_Tech_Survey]'
+    CTS_MAIL_SENDER = 'Cleveland_Tech_Survey Admin <drew.sullivan.dma@gmail.com>'
+    CTS_ADMIN = os.environ.get('CTS_ADMIN')
 
     @staticmethod
     def init_app(app):
