@@ -1,4 +1,6 @@
-The Cleveland Tech Survey
+Template Flask App
 ======
 
-Written and maintained by Drew Sullivan. Based on the O'Reilly Book "Flask Web Development" by Miguel Grinberg.
+Environment variables will need to be changed, but most of the wiring is here.
+
+Based on the O'Reilly Book "Flask Web Development" by Miguel Grinberg.
